@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "66547f80999476b8be6b5c8f"
+  },
+  "name": "Tony Tony Chopper",
+  "bounty": 1000,
+  "birthdate": {
+    "$date": "2004-12-24T00:00:00.000Z"
+  }
+}]
