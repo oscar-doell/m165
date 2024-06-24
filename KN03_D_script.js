@@ -1,3 +1,5 @@
+use cs2
+
 var keyId1 = ObjectId("66796fb4a4251bd2ebaf8067");
 var skinId2 = ObjectId("66796fb4a4251bd2ebaf8070");
 var caseId2 = ObjectId("66796fb4a4251bd2ebaf806c");
