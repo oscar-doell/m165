@@ -1,0 +1,11 @@
+CREATE 
+  (c1:Case {id: 1, name: 'Gamma Case', price: 20.0}),
+  (c2:Case {id: 2, name: 'Bravo Case', price: 25.0}),
+  (k1:Key {id: 1, name: 'Gamma Key', price: 2.5}),
+  (k2:Key {id: 2, name: 'Bravo Key', price: 3.0}),
+  (s1:Skin {id: 1, name: 'Dragon Lore', price: 1500.0, float: 0.2, acquiredDate: date('2023-06-13')}),
+  (p1:Pattern {id: 1, pattern: 123}),
+  (c1)-[:usesKeys]->(k1),
+  (c2)-[:usesKeys]->(k2),
+  (s1)-[:hasPattern]->(p1),
+  (s1)-[:belongsToCases]->(c1);
