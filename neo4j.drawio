@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T16:20:15.284Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="pQJfqFvm77821iV2zTh-" version="24.6.4" type="device">
+<mxfile host="app.diagrams.net" modified="2024-07-03T16:32:29.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="PLbFgswHT9HBsL0-Kn8z" version="24.6.4" type="device">
   <diagram name="Page-1" id="FCHFxe1kG_JcjlVq0kdj">
     <mxGraphModel dx="1434" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
             <mxPoint x="290" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1Dfgl92mjE_H1IsoLuje-7" value="Belongs to case&lt;div&gt;cases : Array&amp;lt;int&amp;gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Dfgl92mjE_H1IsoLuje-6">
+        <mxCell id="1Dfgl92mjE_H1IsoLuje-7" value="belongsToCases" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Dfgl92mjE_H1IsoLuje-6">
           <mxGeometry x="0.1576" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -33,7 +33,7 @@
             <mxPoint x="470" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1Dfgl92mjE_H1IsoLuje-9" value="Has pattern&lt;div&gt;pattern : Pattern&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Dfgl92mjE_H1IsoLuje-8">
+        <mxCell id="1Dfgl92mjE_H1IsoLuje-9" value="hasPattern" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Dfgl92mjE_H1IsoLuje-8">
           <mxGeometry x="0.3714" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -44,7 +44,7 @@
             <mxPoint x="440" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1Dfgl92mjE_H1IsoLuje-11" value="Uses keys&lt;div&gt;keys : Array&amp;lt;int&amp;gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Dfgl92mjE_H1IsoLuje-10">
+        <mxCell id="1Dfgl92mjE_H1IsoLuje-11" value="usesKeys" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1Dfgl92mjE_H1IsoLuje-10">
           <mxGeometry x="0.2143" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
